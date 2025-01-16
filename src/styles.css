@@ -60,3 +60,14 @@ footer {
     font-weight: 400;
     color: var(--tag-color);
 }
+
+@media (max-width: 768px) {
+    header {
+        
+        padding: 18px;
+    }
+
+    #time {
+        font-size: 4.25rem;
+    }
+} 
