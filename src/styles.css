@@ -1,0 +1,61 @@
+:root {
+    --text-color: #000000;
+    --tag-color: #818181;
+}
+
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 32px;
+}
+
+#logo {
+    font-family: "Inter", serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+#date {
+    font-family: "Inter", serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-color);
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#time {
+    font-family: "Jersey 25", serif;
+    font-size: 9rem;
+    font-weight: 400;
+    color: var(--text-color);
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 18px 32px;
+}
+
+#footer-tag {
+    font-family: "Inter", serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--tag-color);
+}
