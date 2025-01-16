@@ -28,12 +28,11 @@ function updateClock() {
     // timeDiv.innerHTML = `${h.toString().padStart(2, '0')}:${m}:${s} ${amPm}`;
 
     //this is precise way though
-    const now = new Date().toLocaleTimeString("ne-NP", {
+    const now = new Date().toLocaleTimeString("en-US", {
         hour: '2-digit', // Two-digit hour (01, 12, etc.)
         minute: '2-digit', // Two-digit minute (01, 59, etc.)
         second: '2-digit', // Two-digit second (00, 59, etc.)
         hour12: true, // Use 12-hour clock (AM/PM)
-        timeZone: "Asia/Kathmandu" // Set Nepal Standard Time (NPT, UTC+5:45)
       });
     timeDiv.innerHTML = now;
 };
